@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Splash : MonoBehaviour {
 
-	// Use this for initialization
 	void Start () {
 		GameData.vState = 3;
 		if (PlayerPrefs.GetInt("Init",0)==0){
